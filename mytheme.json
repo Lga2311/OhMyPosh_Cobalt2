@@ -1,0 +1,135 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "final_space": true,
+  "osc99": true,
+  "console_title": true,
+  "console_title_style": "template",
+  "console_title_template": "{{.Folder}}",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": false,
+      "segments": [
+        {
+          "type": "text",
+          "style": "diamond",
+          "trailing_diamond": "",
+          "leading_diamond": "",
+          "foreground": "white",
+          "background": "#000000",
+          "properties": {
+            "prefix": "",
+            "text": " ❯ ",
+            "postfix": ""
+          }
+        },
+        {
+          "type": "path",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "black",
+          "background": "blue",
+          "leading_diamond": "",
+          "trailing_diamond": "",
+          "properties": {
+            "style": "agnoster_short",
+            "max_depth": 3,
+            "folder_icon": "",
+            "folder_separator_icon": "/",
+            "mapped_locations": {
+              "%USERPROFILE%": "~",
+              "%USERPROFILE%/OneDrive": "",
+              "D:/Users/lucas": "~",
+              "D:/Users/lucas/OneDrive": "",
+              "D:/Users/lucas/OneDrive/Documentos": ""
+            }
+          }
+        },
+        {
+          "type": "git",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "black",
+          "background": "green",
+          "properties": {
+            "display_status": true,
+            "display_status_detail": false,
+            "branch_icon": " ",
+            "branch_identical_icon": "",
+            "branch_gone_icon": "",
+            "local_working_icon": "±",
+            "behind_color": "red"
+          }
+        }
+      ]
+    },
+    {
+      "type": "rprompt",
+      "segments": [
+        {
+          "type": "time",
+          "style": "diamond",
+          "foreground": "black",
+          "background": "red",
+          "leading_diamond": "",
+          "trailing_diamond": ""
+        },
+        {
+          "type": "dart",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "invert_powerline": true,
+          "foreground": "black",
+          "background": "cyan",
+          "properties": {
+            "prefix": " \uE798 "
+          }
+        },
+        {
+          "type": "python",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "invert_powerline": true,
+          "foreground": "black",
+          "background": "yellow",
+          "properties": {
+            "prefix": " \uE235 "
+          }
+        },
+        {
+          "type": "node",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "invert_powerline": true,
+          "foreground": "black",
+          "background": "lightGreen",
+          "properties": {
+            "prefix": " \uE718 "
+          }
+        },
+        {
+          "type": "dotnet",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "invert_powerline": true,
+          "foreground": "black",
+          "background": "magenta",
+          "properties": {
+            "prefix": "  "
+          }
+        },
+        {
+          "type": "julia",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "white",
+          "background": "lightBlue",
+          "properties": {
+            "prefix": " \uE624 "
+          }
+        }
+      ]
+    }
+  ]
+}
