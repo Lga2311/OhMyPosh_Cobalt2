@@ -39,10 +39,10 @@
             "folder_separator_icon": "/",
             "mapped_locations": {
               "%USERPROFILE%": "~",
-              "%USERPROFILE%/OneDrive": "",
+              "%USERPROFILE%/OneDrive": "",
               "D:/Users/lucas": "~",
-              "D:/Users/lucas/OneDrive": "",
-              "D:/Users/lucas/OneDrive/Documentos": ""
+              "D:/Users/lucas/OneDrive": "",
+              "D:/Users/lucas/OneDrive/Documentos": ""
             }
           }
         },
@@ -59,75 +59,89 @@
             "branch_identical_icon": "",
             "branch_gone_icon": "",
             "local_working_icon": "±",
-            "behind_color": "red"
+            "behind_color": "red",
+            "error_color": "red"
           }
         }
       ]
     },
     {
       "type": "rprompt",
+      "alignment": "right",
       "segments": [
         {
-          "type": "time",
-          "style": "diamond",
-          "foreground": "black",
-          "background": "red",
-          "leading_diamond": "",
-          "trailing_diamond": ""
-        },
-        {
           "type": "dart",
-          "style": "powerline",
-          "powerline_symbol": "",
+          "style": "diamond",
+          "powerline_symbol": "",
+          "leading_diamond": "",
+          "trailing_diamond": " ",
           "invert_powerline": true,
           "foreground": "black",
           "background": "cyan",
           "properties": {
-            "prefix": " \uE798 "
+            "prefix": "\uE798 "
           }
         },
         {
           "type": "python",
-          "style": "powerline",
-          "powerline_symbol": "",
+          "style": "diamond",
+          "powerline_symbol": "",
+          "leading_diamond": "",
+          "trailing_diamond": " ",
           "invert_powerline": true,
           "foreground": "black",
           "background": "yellow",
           "properties": {
-            "prefix": " \uE235 "
+            "prefix": "\uE235 "
           }
         },
         {
           "type": "node",
-          "style": "powerline",
-          "powerline_symbol": "",
+          "style": "diamond",
+          "powerline_symbol": "",
+          "leading_diamond": "",
+          "trailing_diamond": " ",
           "invert_powerline": true,
           "foreground": "black",
           "background": "lightGreen",
           "properties": {
-            "prefix": " \uE718 "
+            "prefix": "\uE718 "
           }
         },
         {
           "type": "dotnet",
-          "style": "powerline",
-          "powerline_symbol": "",
+          "style": "diamond",
+          "powerline_symbol": "",
+          "leading_diamond": "",
+          "trailing_diamond": " ",
           "invert_powerline": true,
           "foreground": "black",
           "background": "magenta",
           "properties": {
-            "prefix": "  "
+            "prefix": " "
           }
         },
         {
           "type": "julia",
-          "style": "powerline",
-          "powerline_symbol": "",
+          "style": "diamond",
+          "powerline_symbol": "",
+          "leading_diamond": "",
+          "trailing_diamond": " ",
+          "invert_powerline": true,
           "foreground": "white",
           "background": "lightBlue",
           "properties": {
-            "prefix": " \uE624 "
+            "prefix": "\uE624 "
           }
+        },
+        {
+          "type": "time",
+          "style": "diamond",
+          "invert_powerline": true,
+          "foreground": "black",
+          "background": "red",
+          "leading_diamond": "",
+          "trailing_diamond": ""
         }
       ]
     }
